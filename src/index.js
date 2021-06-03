@@ -1,6 +1,6 @@
-import { Styles } from "./styles"
+import { css, injectGlobal, Styles, StyleSheet } from "./styles"
 import { Tokens } from "./tokens"
 
-const UKit = { Styles, Tokens }
+const UKit = { css, injectGlobal, Styles, StyleSheet, Tokens }
 
-export { UKit, Styles, Tokens }
+export { UKit, css, injectGlobal, Styles, StyleSheet, Tokens }

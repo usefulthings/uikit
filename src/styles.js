@@ -1,4 +1,4 @@
-import { css } from "@emotion/css"
+import { css, injectGlobal } from "@emotion/css"
 
 const StyleSheet = {
   create: function (config) {
@@ -9,6 +9,6 @@ const StyleSheet = {
   },
 }
 
-const Styles = { StyleSheet }
+const Styles = { css, injectGlobal, StyleSheet }
 
-export { Styles, StyleSheet }
+export { Styles, css, injectGlobal, StyleSheet }
